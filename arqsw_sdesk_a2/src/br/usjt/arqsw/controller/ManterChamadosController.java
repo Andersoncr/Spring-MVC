@@ -38,7 +38,7 @@ public class ManterChamadosController {
 	 */
 	@RequestMapping("index")
 	public String inicio() {
-		return "index";
+		return "Login";
 	}
 
 	private List<Fila> listarFilas() throws IOException{

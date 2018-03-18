@@ -22,7 +22,7 @@ public class AutorizadorInterceptor extends HandlerInterceptorAdapter {
         if (request.getSession().getAttribute(Usuario.LOGADO) != null) {
             return true;
         }
-        response.sendRedirect("telaLogin");
+        response.sendRedirect("index");
         return false;
     }
 }
